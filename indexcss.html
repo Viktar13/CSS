@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Studying the Code.</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="sound2.jpg" width="500" alt="Песня гор" class="Sound" />
+        <h1>Hello HTML!!?</h1>
+        <p>Georgian school</p>
+      </div>
+      <hr color="red" />
+
+      <!-- <div id="info2"> -->
+      <!-- (id=") можна ўжываць замест (class="), але (class="),па звестках уроку - лепш -->
+      <div class="info2">
+        <img
+          src="xoxo.jpg"
+          width="500"
+          alt="Віктар Старухін і каванае сонейка"
+          class="avatar"
+        />
+
+        <div class="info2-text">
+          <p>Вучуся пісаць <strong>сайты.</strong></p>
+          <p>Зараз пачаў курс па вывучэнню асноў HTML i CSS.</p>
+
+          <h4>Мае сацыяльныя сеткі:</h4>
+
+          <a href="https://www.facebook.com/viktar13/" target="_blank"
+            >Facebook</a
+          >
+          |
+          <a target="_blank" href="https://www.instagram.com/viktar13/">
+            Instagram</a
+          >
+        </div>
+      </div>
+
+      <!-- <div class="social"> -->
+      <!-- <h2>Мае сацыяльныя сеткі:</h2>
+      <ul type="disk">
+        <li>
+          <a href="https://www.facebook.com/viktar13/" target="_blank"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <a target="_blank" href="https://www.instagram.com/viktar13/">
+            Instagram</a
+          >
+        </li>
+      </ul> -->
+      <!-- </div> -->
+
+      <div class="card bg-yellow">
+        <h2>Мае хобі:</h2>
+        <ol class="list" type="I">
+          <li>Сноўборд</li>
+          <li>Матацыклы</li>
+          <li>Каякінг</li>
+          <li>Вандроўкі</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Досвед працы</h2>
+        <table class="table">
+          <!--border="2"-->
+          <!-- <tr>
+            <th>Кампанія</th>
+            <th>Пасада</th>
+            <th>Год</th>
+          </tr> -->
+          <tr>
+            <td>Кампанія Булрэстаўрацыя 1</td>
+            <td>Выкшталцоўныя вырабы з металу</td>
+            <td>2000 - 2001</td>
+          </tr>
+          <tr>
+            <td>Кампанія кавальская 1</td>
+            <td>Кіраўнік металічных працэсаў</td>
+            <td>2000 - 2010</td>
+          </tr>
+          <tr>
+            <td>Металёвы стыль</td>
+            <td>Мастак каванага аздаблення</td>
+            <td>2010 - 2013</td>
+          </tr>
+          <tr>
+            <td>Бронзавае ліццё</td>
+            <td>Дызайн, мадэляванне</td>
+            <!-- class="temp" не самы зручны спосаб рэдактаваць элементы табліцы, бо трэба пісаць шмат кода -->
+            <td>2015 - now</td>
+          </tr>
+          <tr>
+            <td>Грузінская кампанія</td>
+            <td>Frontand</td>
+            <td>2022 - 2022</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Каваныя вырабы</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://photos.app.goo.gl/bnecnUjprexjikjf8">
+              Каваныя лесвіцы</a
+            >
+          </li>
+          <li>
+            <a href="https://photos.app.goo.gl/U1hkf5tiSvhAF3XQ9"
+              >Каваныя балконы</a
+            >
+          </li>
+          <li>
+            <a href="https://photos.app.goo.gl/bnecnUjprexjikjf8">
+              Каваныя вароты</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Выйсці на сувязь</h2>
+        <!-- <form action="/"> -->
+
+        <form>
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваша імя:</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Пачніце ўводзіць імя."
+              />
+              <!-- <input type="checkbox" /> -->
+            </div>
+
+            <div class="form-group">
+              <label for="name">Ваш email:</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Пачніце ўводзіць email ."
+              />
+              <!-- <input type="number" /> -->
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Ваша паведамленне:</label>
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Адправіць" />
+        </form>
+      </div>
+      <div class="position">
+        <div class="box"></div>
+      </div>
+
+      <!-- <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div> -->
+    </div>
+
+    <div style="margin-bottom: 500px"></div>
+  </body>
+</html>
